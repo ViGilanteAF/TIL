@@ -16,7 +16,6 @@ for _ in range(E):
 
 
 q.put((0, K))  # 0을 먼저 사용한 이유는 바로 파이썬 에서는 앞에 있는 수  기준으로 배열이 정렬됨
-
 distance[K] = 0
 
 while q.qsize() > 0:
@@ -35,6 +34,8 @@ while q.qsize() > 0:
 
 for i in range(1, V+1):
     if distance[i] != sys.maxsize:
-        print(distance[1])
+        print(distance[i])
     else:
         print("INF")
+
+# 로컬에서 작동시에는 예제출력 대로 출력이 나오나... 온라인에서 제출시에는 시간초과 나 런타임 에러 를 나타냄
