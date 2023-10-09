@@ -15,4 +15,4 @@ def solution(n):
         for el in lst:
             answer *= 10
             answer += el
-    return answer
+        return answer
