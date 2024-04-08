@@ -1,4 +1,5 @@
 # Permutation
+from itertools import permutations
 
 
 class Solution:
