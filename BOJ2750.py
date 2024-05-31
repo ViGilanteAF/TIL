@@ -3,14 +3,14 @@ a = []
 for i in range(n):
     b = int(input())
     a.append(b)
-    a.sort()
+    a.sort(reverse=True)
 
 for i in a:
     print(i)
 
 '''
 입력
-4
+5
 2
 3
 4
