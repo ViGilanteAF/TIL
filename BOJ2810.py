@@ -2,7 +2,7 @@ import sys
 input = sys.stdin.readline
 
 n = int(input())
-m = list(map(str,input()))
+m = input()
 cnt = 1
 lcheck = 0
 
@@ -17,3 +17,6 @@ for i in m:
            lcheck += 1
 
 print(min(cnt,n))
+
+# s = m.count('S') + m.count('LL') + 1
+# print(min(s, n))
